@@ -8,7 +8,7 @@ FONT_COLOR = "#000000"
 WIDTH, HEIGHT = 3508, 2480
 
 form = pd.read_excel("Enter the name of the excel sheet.xlsx")
-name_list = form['Quiz'].to_list()
+name_list = form['Enter the name of the column'].to_list()
 
 
 def make_cert(name):
