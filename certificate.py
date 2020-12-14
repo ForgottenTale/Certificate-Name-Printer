@@ -26,7 +26,7 @@ for i in name_list:
    path = "./out/"
    os.chdir(path)
    newfolder = str(i)
-   os.mkdir(newfolder)
+   os.mkdir(i)
    os.chdir("../")
    make_cert(i)
 
